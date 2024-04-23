@@ -1,0 +1,1161 @@
+Watching for file changes with StatReloader
+C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/ HTTP/1.1" 200 13
+C:\Work\!GB\16 Django\01_Lection\project_01\project_01\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Work\!GB\16 Django\01_Lection\project_01\project_01\settings.py changed, reloading.
+INFO 2023-10-05 18:31:17,300 autoreload 8092 16244Watching for file changes with StatReloader
+ERROR 2023-10-05 18:31:20,877 views 8092 13988Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-10-05 18:31:20,878 basehttp 8092 13988"GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-10-05 18:31:27,561 views 8092 13988Index page accessed
+INFO 2023-10-05 18:31:27,562 basehttp 8092 13988"GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-10-07 11:50:02,986 autoreload 20576 18968Watching for file changes with StatReloader
+INFO 2023-10-07 11:51:25,740 autoreload 100 10852Watching for file changes with StatReloader
+WARNING 2023-10-08 12:00:29,976 log 100 9496Not Found: /favicon.ico
+WARNING 2023-10-08 12:00:29,977 basehttp 100 9496"GET /favicon.ico HTTP/1.1" 404 2221
+INFO 2023-10-08 13:34:35,738 autoreload 21208 20980Watching for file changes with StatReloader
+INFO 2024-04-14 21:35:55,229 autoreload 20268 7380Watching for file changes with StatReloader
+WARNING 2024-04-14 21:36:18,877 log 20268 10480Not Found: /
+WARNING 2024-04-14 21:36:18,878 basehttp 20268 10480"GET / HTTP/1.1" 404 2170
+WARNING 2024-04-14 21:36:18,965 log 20268 10480Not Found: /favicon.ico
+WARNING 2024-04-14 21:36:18,966 basehttp 20268 10480"GET /favicon.ico HTTP/1.1" 404 2221
+ERROR 2024-04-14 21:37:00,255 basehttp 20268 20940You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-04-14 21:37:00,259 basehttp 20268 20964You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-04-14 21:37:00,263 basehttp 20268 14552code 400, message Bad request version ('t')
+ERROR 2024-04-14 21:37:00,263 basehttp 20268 14552You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-04-14 21:37:00,267 basehttp 20268 8208You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-04-14 21:37:11,072 log 20268 10480Not Found: /
+WARNING 2024-04-14 21:37:11,073 basehttp 20268 10480"GET / HTTP/1.1" 404 2170
+INFO 2024-04-14 21:38:23,048 autoreload 20292 10072Watching for file changes with StatReloader
+WARNING 2024-04-14 21:38:28,453 log 20292 9856Not Found: /
+WARNING 2024-04-14 21:38:28,453 basehttp 20292 9856"GET / HTTP/1.1" 404 2170
+WARNING 2024-04-14 21:38:28,493 log 20292 9856Not Found: /favicon.ico
+WARNING 2024-04-14 21:38:28,494 basehttp 20292 9856"GET /favicon.ico HTTP/1.1" 404 2221
+INFO 2024-04-14 21:39:16,857 autoreload 1860 104Watching for file changes with StatReloader
+WARNING 2024-04-14 21:39:22,527 log 1860 20648Not Found: /
+WARNING 2024-04-14 21:39:22,528 basehttp 1860 20648"GET / HTTP/1.1" 404 2170
+INFO 2024-04-14 21:42:37,996 autoreload 6332 2532Watching for file changes with StatReloader
+WARNING 2024-04-14 21:43:40,816 log 6332 21348Not Found: /
+WARNING 2024-04-14 21:43:40,816 basehttp 6332 21348"GET / HTTP/1.1" 404 2170
+ERROR 2024-04-14 21:44:47,291 exception 6332 2296Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:44:47,330 log 6332 2296Bad Request: /
+WARNING 2024-04-14 21:44:47,330 basehttp 6332 2296"GET / HTTP/1.1" 400 67947
+ERROR 2024-04-14 21:44:47,584 exception 6332 13368Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:44:47,601 log 6332 13368Bad Request: /favicon.ico
+WARNING 2024-04-14 21:44:47,602 basehttp 6332 13368"GET /favicon.ico HTTP/1.1" 400 68002
+WARNING 2024-04-14 21:46:19,605 log 6332 21348Not Found: /
+WARNING 2024-04-14 21:46:19,606 basehttp 6332 21348"GET / HTTP/1.1" 404 2170
+WARNING 2024-04-14 21:46:53,475 log 6332 21348Not Found: /
+WARNING 2024-04-14 21:46:53,475 basehttp 6332 21348"GET / HTTP/1.1" 404 2170
+INFO 2024-04-14 21:54:14,918 autoreload 20136 20232Watching for file changes with StatReloader
+WARNING 2024-04-14 21:54:17,603 log 20136 4884Not Found: /
+WARNING 2024-04-14 21:54:17,603 basehttp 20136 4884"GET / HTTP/1.1" 404 2170
+WARNING 2024-04-14 21:54:39,643 log 20136 4884Not Found: /index
+WARNING 2024-04-14 21:54:39,643 basehttp 20136 4884"GET /index HTTP/1.1" 404 2203
+ERROR 2024-04-14 21:56:09,072 exception 20136 11612Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:56:09,099 log 20136 11612Bad Request: /admin
+WARNING 2024-04-14 21:56:09,100 basehttp 20136 11612"GET /admin HTTP/1.1" 400 68202
+ERROR 2024-04-14 21:56:09,416 exception 20136 4244Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:56:09,433 log 20136 4244Bad Request: /favicon.ico
+WARNING 2024-04-14 21:56:09,434 basehttp 20136 4244"GET /favicon.ico HTTP/1.1" 400 68007
+ERROR 2024-04-14 21:56:38,392 exception 20136 11680Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:56:38,407 log 20136 11680Bad Request: /admin
+WARNING 2024-04-14 21:56:38,407 basehttp 20136 11680"GET /admin HTTP/1.1" 400 68493
+ERROR 2024-04-14 21:56:38,727 exception 20136 4336Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:56:38,741 log 20136 4336Bad Request: /favicon.ico
+WARNING 2024-04-14 21:56:38,742 basehttp 20136 4336"GET /favicon.ico HTTP/1.1" 400 68007
+ERROR 2024-04-14 21:56:41,420 exception 20136 16604Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:56:41,440 log 20136 16604Bad Request: /admin
+WARNING 2024-04-14 21:56:41,440 basehttp 20136 16604"GET /admin HTTP/1.1" 400 68493
+ERROR 2024-04-14 21:56:42,431 exception 20136 9464Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.7:8080'. You may need to add '192.168.0.7' to ALLOWED_HOSTS.
+WARNING 2024-04-14 21:56:42,455 log 20136 9464Bad Request: /favicon.ico
+WARNING 2024-04-14 21:56:42,456 basehttp 20136 9464"GET /favicon.ico HTTP/1.1" 400 68007
+WARNING 2024-04-14 21:57:04,703 log 20136 4884Not Found: /index
+WARNING 2024-04-14 21:57:04,703 basehttp 20136 4884"GET /index HTTP/1.1" 404 2203
+INFO 2024-04-14 21:57:10,845 basehttp 20136 4884"GET /admin HTTP/1.1" 301 0
+INFO 2024-04-14 21:57:10,864 basehttp 20136 7948"GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-14 21:57:10,880 basehttp 20136 7948"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2024-04-14 21:57:10,960 basehttp 20136 15456"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-04-14 21:57:10,965 basehttp 20136 2104"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2024-04-14 21:57:10,971 basehttp 20136 7948"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2024-04-14 21:57:10,971 basehttp 20136 11908"GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-14 21:57:10,972 basehttp 20136 20292"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-04-14 21:57:10,976 basehttp 20136 11908"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-14 21:57:10,976 basehttp 20136 20292"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-14 21:57:58,482 basehttp 20136 20292"GET /admin/task05 HTTP/1.1" 302 0
+INFO 2024-04-14 21:57:58,502 basehttp 20136 20292"GET /admin/login/?next=/admin/task05 HTTP/1.1" 200 4193
+WARNING 2024-04-14 21:58:09,470 log 20136 20292Not Found: /task5
+WARNING 2024-04-14 21:58:09,471 basehttp 20136 20292"GET /task5 HTTP/1.1" 404 2203
+WARNING 2024-04-14 21:59:44,333 log 20136 20292Not Found: /about
+WARNING 2024-04-14 21:59:44,334 basehttp 20136 20292"GET /about HTTP/1.1" 404 2203
+INFO 2024-04-14 22:00:26,388 autoreload 19448 18500Watching for file changes with StatReloader
+INFO 2024-04-14 22:01:21,459 autoreload 11940 18016Watching for file changes with StatReloader
+WARNING 2024-04-14 22:01:56,853 log 11940 2696Not Found: /
+WARNING 2024-04-14 22:01:56,853 basehttp 11940 2696"GET / HTTP/1.1" 404 2170
+INFO 2024-04-14 22:04:21,404 autoreload 11000 11212Watching for file changes with StatReloader
+WARNING 2024-04-14 22:04:23,762 log 11000 16036Not Found: /
+WARNING 2024-04-14 22:04:23,763 basehttp 11000 16036"GET / HTTP/1.1" 404 2170
+WARNING 2024-04-14 22:04:46,430 log 11000 16036Not Found: /
+WARNING 2024-04-14 22:04:46,431 basehttp 11000 16036"GET / HTTP/1.1" 404 2170
+INFO 2024-04-14 22:06:41,928 autoreload 12660 6192Watching for file changes with StatReloader
+WARNING 2024-04-14 22:06:43,736 log 12660 1044Not Found: /
+WARNING 2024-04-14 22:06:43,737 basehttp 12660 1044"GET / HTTP/1.1" 404 2170
+WARNING 2024-04-14 22:06:46,931 log 12660 1044Not Found: /
+WARNING 2024-04-14 22:06:46,932 basehttp 12660 1044"GET / HTTP/1.1" 404 2170
+INFO 2024-04-14 22:07:45,742 basehttp 12660 1044"GET /prefix HTTP/1.1" 301 0
+INFO 2024-04-14 22:07:45,755 views 12660 6780Index page accessed
+INFO 2024-04-14 22:07:45,755 basehttp 12660 6780"GET /prefix/ HTTP/1.1" 200 25
+INFO 2024-04-14 22:07:53,791 basehttp 12660 6780"GET /prefix/about HTTP/1.1" 301 0
+ERROR 2024-04-14 22:07:53,806 views 12660 21432Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-14 22:07:53,808 basehttp 12660 21432"GET /prefix/about/ HTTP/1.1" 200 27
+WARNING 2024-04-14 22:07:59,296 log 12660 21432Not Found: /prefix/index
+WARNING 2024-04-14 22:07:59,296 basehttp 12660 21432"GET /prefix/index HTTP/1.1" 404 2459
+ERROR 2024-04-14 22:08:22,282 views 12660 21432Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-14 22:08:22,283 basehttp 12660 21432"GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-14 22:09:21,420 autoreload 12660 6192C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py changed, reloading.
+INFO 2024-04-14 22:09:21,861 autoreload 11444 17940Watching for file changes with StatReloader
+INFO 2024-04-14 22:09:23,781 basehttp 11444 2532"GET /prefix/about/ HTTP/1.1" 200 8
+INFO 2024-04-14 22:14:31,129 autoreload 11444 17940C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py changed, reloading.
+INFO 2024-04-14 22:14:31,688 autoreload 9496 11076Watching for file changes with StatReloader
+ERROR 2024-04-14 22:15:11,425 views 9496 1964Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\project_01\myapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-14 22:15:11,426 basehttp 9496 1964"GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-15 17:27:37,030 autoreload 14032 20960Watching for file changes with StatReloader
+INFO 2024-04-15 17:31:10,143 autoreload 17172 19756Watching for file changes with StatReloader
+INFO 2024-04-15 17:34:34,670 autoreload 2588 11924Watching for file changes with StatReloader
+INFO 2024-04-17 19:42:05,507 autoreload 9952 17552Watching for file changes with StatReloader
+INFO 2024-04-17 19:42:24,445 basehttp 9952 15056"GET /lesson3/hello HTTP/1.1" 301 0
+INFO 2024-04-17 19:42:24,448 basehttp 9952 876"GET /lesson3/hello/ HTTP/1.1" 200 26
+INFO 2024-04-17 19:42:29,697 basehttp 9952 876"GET /lesson3/hello2 HTTP/1.1" 301 0
+INFO 2024-04-17 19:42:29,708 basehttp 9952 976"GET /lesson3/hello2/ HTTP/1.1" 200 23
+WARNING 2024-04-17 19:42:45,291 log 9952 976Not Found: /
+WARNING 2024-04-17 19:42:45,292 basehttp 9952 976"GET / HTTP/1.1" 404 2275
+WARNING 2024-04-17 19:42:53,459 log 9952 976Not Found: /lesson3
+WARNING 2024-04-17 19:42:53,460 basehttp 9952 976"GET /lesson3 HTTP/1.1" 404 2314
+WARNING 2024-04-17 19:43:00,653 log 9952 976Not Found: /lesson3
+WARNING 2024-04-17 19:43:00,654 basehttp 9952 976"GET /lesson3 HTTP/1.1" 404 2314
+INFO 2024-04-17 19:43:21,005 basehttp 9952 976"GET /lesson3/hello/ HTTP/1.1" 200 26
+WARNING 2024-04-17 19:43:26,546 log 9952 976Not Found: /lesson3/
+WARNING 2024-04-17 19:43:26,546 basehttp 9952 976"GET /lesson3/ HTTP/1.1" 404 2561
+INFO 2024-04-17 20:18:44,454 basehttp 9952 18956"GET /lesson3/hello/ HTTP/1.1" 200 26
+INFO 2024-04-17 20:20:04,299 autoreload 9952 17552C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:20:04,791 autoreload 18236 18692Watching for file changes with StatReloader
+INFO 2024-04-17 20:20:27,655 autoreload 18236 18692C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:20:28,090 autoreload 18600 17832Watching for file changes with StatReloader
+INFO 2024-04-17 20:24:35,135 autoreload 18600 17832C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:24:35,628 autoreload 9048 6616Watching for file changes with StatReloader
+INFO 2024-04-17 20:24:41,089 autoreload 9048 6616C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:24:41,567 autoreload 10328 14588Watching for file changes with StatReloader
+INFO 2024-04-17 20:25:18,802 autoreload 10328 14588C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:25:19,374 autoreload 17588 17764Watching for file changes with StatReloader
+INFO 2024-04-17 20:25:47,387 autoreload 17588 17764C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:25:47,842 autoreload 16924 3124Watching for file changes with StatReloader
+INFO 2024-04-17 20:26:39,165 autoreload 17956 19152Watching for file changes with StatReloader
+INFO 2024-04-17 20:27:32,769 autoreload 17956 19152C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:27:33,242 autoreload 2504 15056Watching for file changes with StatReloader
+INFO 2024-04-17 20:28:29,852 autoreload 2504 15056C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:28:30,331 autoreload 11252 17176Watching for file changes with StatReloader
+WARNING 2024-04-17 20:28:55,475 log 11252 13128Not Found: /lesson3/posts/
+WARNING 2024-04-17 20:28:55,476 basehttp 11252 13128"GET /lesson3/posts/ HTTP/1.1" 404 3224
+INFO 2024-04-17 20:29:05,253 basehttp 11252 13128"GET /lesson3/posts/2022 HTTP/1.1" 301 0
+INFO 2024-04-17 20:29:05,265 basehttp 11252 14016"GET /lesson3/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-17 20:29:52,070 basehttp 11252 14016"GET /lesson3/posts/2022/10 HTTP/1.1" 301 0
+INFO 2024-04-17 20:29:52,081 basehttp 11252 616"GET /lesson3/posts/2022/10/ HTTP/1.1" 200 22
+INFO 2024-04-17 20:30:23,325 basehttp 11252 616"GET /lesson3/posts/2022/10/10 HTTP/1.1" 301 0
+INFO 2024-04-17 20:30:23,339 basehttp 11252 2028"GET /lesson3/posts/2022/10/10/ HTTP/1.1" 200 378
+INFO 2024-04-17 20:30:44,137 autoreload 11252 17176C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:30:44,608 autoreload 1328 8168Watching for file changes with StatReloader
+INFO 2024-04-17 20:30:44,833 basehttp 1328 17916"GET /lesson3/posts/2022/10/10/ HTTP/1.1" 200 373
+INFO 2024-04-17 20:31:14,699 autoreload 1328 8168C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:31:15,158 autoreload 12544 9224Watching for file changes with StatReloader
+INFO 2024-04-17 20:31:15,468 basehttp 12544 7200"GET /lesson3/posts/2022/10/10/ HTTP/1.1" 200 371
+INFO 2024-04-17 20:31:34,988 autoreload 12544 9224C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:31:35,517 autoreload 14608 15712Watching for file changes with StatReloader
+INFO 2024-04-17 20:31:36,712 basehttp 14608 18268"GET /lesson3/posts/2022/10/10/ HTTP/1.1" 200 355
+INFO 2024-04-17 20:32:05,642 autoreload 14608 15712C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:32:06,203 autoreload 17012 18152Watching for file changes with StatReloader
+INFO 2024-04-17 20:32:06,499 basehttp 17012 16928"GET /lesson3/posts/2022/10/10/ HTTP/1.1" 200 357
+INFO 2024-04-17 20:32:51,703 autoreload 17012 18152C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:32:52,267 autoreload 18600 17748Watching for file changes with StatReloader
+INFO 2024-04-17 20:32:52,690 basehttp 18600 18860"GET /lesson3/posts/2022/10/10/ HTTP/1.1" 200 357
+INFO 2024-04-17 20:37:02,959 autoreload 18600 17748C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:37:03,656 autoreload 14548 5952Watching for file changes with StatReloader
+INFO 2024-04-17 20:37:30,709 autoreload 14548 5952C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:37:31,426 autoreload 1964 11304Watching for file changes with StatReloader
+INFO 2024-04-17 20:38:20,044 autoreload 1964 11304C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:38:20,506 autoreload 18604 9852Watching for file changes with StatReloader
+INFO 2024-04-17 20:40:09,610 autoreload 18604 9852C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:40:10,143 autoreload 11036 9424Watching for file changes with StatReloader
+INFO 2024-04-17 20:40:22,829 autoreload 11036 9424C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:40:23,336 autoreload 18028 1668Watching for file changes with StatReloader
+INFO 2024-04-17 20:40:47,433 basehttp 18028 19372"GET /lesson3/ HTTP/1.1" 200 171
+INFO 2024-04-17 20:46:09,772 autoreload 18028 1668C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:46:10,248 autoreload 19260 12576Watching for file changes with StatReloader
+INFO 2024-04-17 20:46:21,892 autoreload 19260 12576C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:46:22,562 autoreload 16676 18892Watching for file changes with StatReloader
+INFO 2024-04-17 20:46:31,140 autoreload 16676 18892C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:46:31,621 autoreload 6592 15068Watching for file changes with StatReloader
+INFO 2024-04-17 20:46:46,313 autoreload 6592 15068C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:46:46,776 autoreload 16380 15792Watching for file changes with StatReloader
+INFO 2024-04-17 20:46:53,291 autoreload 16380 15792C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:46:53,755 autoreload 18256 11268Watching for file changes with StatReloader
+INFO 2024-04-17 20:48:25,396 autoreload 18256 11268C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:48:25,843 autoreload 2104 9496Watching for file changes with StatReloader
+INFO 2024-04-17 20:49:12,275 autoreload 2104 9496C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:49:12,800 autoreload 17608 15448Watching for file changes with StatReloader
+INFO 2024-04-17 20:49:16,264 autoreload 17608 15448C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:49:16,821 autoreload 14528 7448Watching for file changes with StatReloader
+INFO 2024-04-17 20:49:24,724 basehttp 14528 15660"GET /lesson3/if/ HTTP/1.1" 200 348
+INFO 2024-04-17 20:52:41,556 autoreload 14528 7448C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:52:42,203 autoreload 6360 10884Watching for file changes with StatReloader
+INFO 2024-04-17 20:52:54,916 autoreload 6360 10884C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:52:55,450 autoreload 18672 9800Watching for file changes with StatReloader
+INFO 2024-04-17 20:53:21,393 autoreload 18672 9800C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 20:53:21,836 autoreload 11528 13128Watching for file changes with StatReloader
+INFO 2024-04-17 20:54:14,548 autoreload 11528 13128C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:54:14,995 autoreload 2544 17484Watching for file changes with StatReloader
+INFO 2024-04-17 20:54:37,908 autoreload 2544 17484C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:54:38,367 autoreload 17964 6688Watching for file changes with StatReloader
+INFO 2024-04-17 20:54:53,040 autoreload 17964 6688C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 20:54:53,525 autoreload 18888 14764Watching for file changes with StatReloader
+INFO 2024-04-17 20:55:03,145 basehttp 18888 6256"GET /lesson3/for HTTP/1.1" 301 0
+INFO 2024-04-17 20:55:03,152 basehttp 18888 1988"GET /lesson3/for/ HTTP/1.1" 200 777
+INFO 2024-04-17 21:05:23,456 autoreload 18888 14764C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 21:05:23,950 autoreload 10180 16964Watching for file changes with StatReloader
+INFO 2024-04-17 21:06:47,503 autoreload 10180 16964C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 21:06:48,092 autoreload 7448 4488Watching for file changes with StatReloader
+INFO 2024-04-17 21:06:58,705 autoreload 7448 4488C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\urls.py changed, reloading.
+INFO 2024-04-17 21:06:59,195 autoreload 8680 14764Watching for file changes with StatReloader
+INFO 2024-04-17 21:07:05,724 basehttp 8680 9060"GET /lesson3/index HTTP/1.1" 301 0
+INFO 2024-04-17 21:07:05,730 basehttp 8680 17524"GET /lesson3/index/ HTTP/1.1" 200 249
+INFO 2024-04-17 21:07:12,964 basehttp 8680 17524"GET /lesson3/about HTTP/1.1" 301 0
+INFO 2024-04-17 21:07:12,977 basehttp 8680 5832"GET /lesson3/about/ HTTP/1.1" 200 240
+INFO 2024-04-17 21:08:12,745 autoreload 8680 14764C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-17 21:08:13,211 autoreload 9316 3296Watching for file changes with StatReloader
+INFO 2024-04-17 21:08:55,696 autoreload 9316 3296C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-17 21:08:56,164 autoreload 5156 1632Watching for file changes with StatReloader
+INFO 2024-04-17 21:11:27,476 basehttp 5156 9088"GET /lesson3/index/ HTTP/1.1" 200 311
+INFO 2024-04-17 21:11:34,420 basehttp 5156 9088"GET /lesson3/about/ HTTP/1.1" 200 240
+INFO 2024-04-17 21:12:26,071 autoreload 5156 1632C:\Work\!GB\16 Django\01_Lection\lection\lection\urls.py changed, reloading.
+INFO 2024-04-17 21:12:26,535 autoreload 6804 16456Watching for file changes with StatReloader
+INFO 2024-04-17 21:12:59,675 autoreload 6804 16456C:\Work\!GB\16 Django\01_Lection\lection\lection\urls.py changed, reloading.
+INFO 2024-04-17 21:13:00,156 autoreload 17288 3276Watching for file changes with StatReloader
+INFO 2024-04-17 21:13:37,386 autoreload 17288 3276C:\Work\!GB\16 Django\01_Lection\lection\lection\urls.py changed, reloading.
+INFO 2024-04-17 21:13:37,859 autoreload 11748 17012Watching for file changes with StatReloader
+INFO 2024-04-17 21:13:44,567 basehttp 11748 17144"GET /lesson3 HTTP/1.1" 301 0
+INFO 2024-04-17 21:13:44,575 basehttp 11748 18568"GET /lesson3/ HTTP/1.1" 200 171
+INFO 2024-04-17 21:13:45,999 basehttp 11748 18568"GET / HTTP/1.1" 200 311
+INFO 2024-04-17 21:13:48,101 basehttp 11748 18568"GET / HTTP/1.1" 200 311
+INFO 2024-04-17 21:16:20,627 autoreload 11748 17012C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\models.py changed, reloading.
+INFO 2024-04-17 21:16:21,204 autoreload 18088 14032Watching for file changes with StatReloader
+INFO 2024-04-17 21:16:33,884 autoreload 18088 14032C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\models.py changed, reloading.
+INFO 2024-04-17 21:16:34,334 autoreload 9544 19328Watching for file changes with StatReloader
+INFO 2024-04-17 21:16:43,925 autoreload 9544 19328C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\models.py changed, reloading.
+INFO 2024-04-17 21:16:44,401 autoreload 17740 6252Watching for file changes with StatReloader
+INFO 2024-04-17 21:17:23,794 autoreload 17740 6252C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\models.py changed, reloading.
+INFO 2024-04-17 21:17:24,274 autoreload 18032 5056Watching for file changes with StatReloader
+INFO 2024-04-17 21:42:19,562 autoreload 9808 19128Watching for file changes with StatReloader
+INFO 2024-04-17 21:42:23,620 basehttp 9808 10804"GET /lesson3/author/3 HTTP/1.1" 301 0
+ERROR 2024-04-17 21:42:23,689 log 9808 10108Internal Server Error: /lesson3/author/3/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py", line 85, in author_posts
+    return render(request, 'app_lesson_03/author_posts.html', {'author':author, 'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app_lesson_03/author_posts.html
+ERROR 2024-04-17 21:42:23,692 basehttp 9808 10108"GET /lesson3/author/3/ HTTP/1.1" 500 82302
+INFO 2024-04-17 21:47:17,075 autoreload 14588 1684Watching for file changes with StatReloader
+ERROR 2024-04-17 21:47:21,592 log 14588 17368Internal Server Error: /lesson3/author/3/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py", line 85, in author_posts
+    return render(request, 'app_lesson_03/author_posts.html', {'author':author, 'posts': posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app_lesson_03/author_posts.html
+ERROR 2024-04-17 21:47:21,594 basehttp 14588 17368"GET /lesson3/author/3/ HTTP/1.1" 500 82302
+INFO 2024-04-17 21:48:11,007 autoreload 14588 1684C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 21:48:11,476 autoreload 14172 6964Watching for file changes with StatReloader
+INFO 2024-04-17 21:48:14,130 basehttp 14172 17124"GET /lesson3/author/3/ HTTP/1.1" 200 1249
+ERROR 2024-04-17 21:48:20,388 log 14172 17124Internal Server Error: /lesson3/post/30/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py", line 90, in post_full
+    return render(request, 'app_lesson_03/post_full.html', {'post':post})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app_lesson_03/post_full.html
+ERROR 2024-04-17 21:48:20,390 basehttp 14172 17124"GET /lesson3/post/30/ HTTP/1.1" 500 80547
+INFO 2024-04-17 21:48:28,564 autoreload 14172 6964C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\views.py changed, reloading.
+INFO 2024-04-17 21:48:29,035 autoreload 14608 19212Watching for file changes with StatReloader
+INFO 2024-04-17 21:48:30,036 basehttp 14608 8788"GET /lesson3/post/30/ HTTP/1.1" 200 682
+INFO 2024-04-22 21:20:18,556 autoreload 19492 17820Watching for file changes with StatReloader
+INFO 2024-04-22 21:20:21,088 basehttp 19492 6432"GET / HTTP/1.1" 200 311
+WARNING 2024-04-22 21:20:30,478 log 19492 6432Not Found: /lesson4/add/user
+WARNING 2024-04-22 21:20:30,479 basehttp 19492 6432"GET /lesson4/add/user HTTP/1.1" 404 2623
+INFO 2024-04-22 21:20:37,585 basehttp 19492 6432"GET /lesson4/user/add HTTP/1.1" 301 0
+ERROR 2024-04-22 21:20:37,631 log 19492 9464Internal Server Error: /lesson4/user/add/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py", line 20, in user_form
+    return render(request, 'myapp4/user_form.html', {'form':form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR 2024-04-22 21:20:37,634 basehttp 19492 9464"GET /lesson4/user/add/ HTTP/1.1" 500 80633
+INFO 2024-04-22 21:21:44,634 autoreload 19492 17820C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:21:45,071 autoreload 16816 3800Watching for file changes with StatReloader
+INFO 2024-04-22 21:21:46,937 basehttp 16816 18736"GET /lesson4/user/add/ HTTP/1.1" 200 750
+INFO 2024-04-22 21:22:31,607 basehttp 16816 18736"GET /lesson4/user/add/ HTTP/1.1" 200 750
+INFO 2024-04-22 21:25:47,092 basehttp 16816 18736"GET /lesson4/user/add/ HTTP/1.1" 200 974
+INFO 2024-04-22 21:26:41,107 basehttp 16816 18736"POST /lesson4/user/add/ HTTP/1.1" 200 1021
+INFO 2024-04-22 21:29:39,523 autoreload 16816 3800C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:29:40,040 autoreload 8488 12392Watching for file changes with StatReloader
+INFO 2024-04-22 21:29:47,569 autoreload 8488 12392C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:29:48,036 autoreload 19992 11772Watching for file changes with StatReloader
+INFO 2024-04-22 21:30:08,947 autoreload 19992 11772C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:30:09,422 autoreload 11224 22480Watching for file changes with StatReloader
+INFO 2024-04-22 21:30:35,465 autoreload 11224 22480C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:30:35,988 autoreload 20544 21652Watching for file changes with StatReloader
+INFO 2024-04-22 21:30:46,657 autoreload 20544 21652C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:30:47,203 autoreload 17988 20932Watching for file changes with StatReloader
+INFO 2024-04-22 21:30:50,645 autoreload 17988 20932C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:30:51,123 autoreload 5000 19576Watching for file changes with StatReloader
+INFO 2024-04-22 21:31:07,889 autoreload 5000 19576C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:31:08,366 autoreload 18656 17808Watching for file changes with StatReloader
+INFO 2024-04-22 21:31:16,933 autoreload 18656 17808C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:31:17,600 autoreload 22400 20300Watching for file changes with StatReloader
+INFO 2024-04-22 21:31:37,550 autoreload 22400 20300C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:31:38,053 autoreload 19568 6160Watching for file changes with StatReloader
+INFO 2024-04-22 21:32:15,464 autoreload 19568 6160C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:32:16,022 autoreload 22244 20440Watching for file changes with StatReloader
+INFO 2024-04-22 21:32:36,949 autoreload 22244 20440C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\urls.py changed, reloading.
+INFO 2024-04-22 21:32:37,426 autoreload 9808 10056Watching for file changes with StatReloader
+INFO 2024-04-22 21:32:50,082 autoreload 9808 10056C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\urls.py changed, reloading.
+INFO 2024-04-22 21:32:50,644 autoreload 10308 13380Watching for file changes with StatReloader
+INFO 2024-04-22 21:34:24,184 basehttp 10308 20112"GET /lesson4/forms HTTP/1.1" 301 0
+ERROR 2024-04-22 21:34:24,220 log 10308 11620Internal Server Error: /lesson4/forms/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py", line 31, in many_fields_form
+    return render(request, 'app4_lection_04/many_fields_form.html',{'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app4_lection_04/many_fields_form.html
+ERROR 2024-04-22 21:34:24,223 basehttp 10308 11620"GET /lesson4/forms/ HTTP/1.1" 500 81055
+INFO 2024-04-22 21:35:05,889 autoreload 10308 13380C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:35:06,354 autoreload 17836 6956Watching for file changes with StatReloader
+INFO 2024-04-22 21:35:06,926 basehttp 17836 18816"GET /lesson4/forms/ HTTP/1.1" 200 1517
+INFO 2024-04-22 21:35:52,899 basehttp 17836 18816"POST /lesson4/forms/ HTTP/1.1" 200 1592
+INFO 2024-04-22 21:36:06,893 basehttp 17836 18816"POST /lesson4/forms/ HTTP/1.1" 200 1592
+INFO 2024-04-22 21:36:33,235 autoreload 17836 6956C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:36:33,705 autoreload 16648 14996Watching for file changes with StatReloader
+INFO 2024-04-22 21:36:48,469 autoreload 16648 14996C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:36:48,917 autoreload 21700 16224Watching for file changes with StatReloader
+INFO 2024-04-22 21:38:14,578 autoreload 21700 16224C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-22 21:38:15,040 autoreload 6464 22052Watching for file changes with StatReloader
+INFO 2024-04-22 21:38:19,438 views 6464 17720Получили form.cleaned_data={'name': 'Name', 'email': 'Name@mail.ru', 'age': 22, 'height': 1.8, 'is_active': True, 'birthdate': datetime.date(2012, 4, 22), 'gender': 'M'}.
+INFO 2024-04-22 21:38:19,450 basehttp 6464 17720"POST /lesson4/forms/ HTTP/1.1" 200 1592
+INFO 2024-04-22 21:41:03,121 autoreload 6464 22052C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:41:03,595 autoreload 19684 16348Watching for file changes with StatReloader
+INFO 2024-04-22 21:43:00,911 autoreload 19684 16348C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:43:01,383 autoreload 11500 18060Watching for file changes with StatReloader
+INFO 2024-04-22 21:43:28,525 autoreload 11500 18060C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:43:29,073 autoreload 21244 19664Watching for file changes with StatReloader
+INFO 2024-04-22 21:44:09,569 autoreload 21244 19664C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:44:10,107 autoreload 4284 11940Watching for file changes with StatReloader
+INFO 2024-04-22 21:44:38,461 basehttp 4284 19024"POST /lesson4/forms/ HTTP/1.1" 200 2271
+INFO 2024-04-22 21:45:14,385 views 4284 19024Получили form.cleaned_data={'name': 'Name', 'email': 'Name@mail.ru', 'age': 25, 'height': 1.9, 'is_active': True, 'birthdate': datetime.date(2012, 4, 22), 'gender': 'M', 'message': 'Текст'}.
+INFO 2024-04-22 21:45:14,390 basehttp 4284 19024"POST /lesson4/forms/ HTTP/1.1" 200 2222
+INFO 2024-04-22 21:46:47,978 autoreload 4284 11940C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:46:48,471 autoreload 17804 9588Watching for file changes with StatReloader
+INFO 2024-04-22 21:47:15,249 views 17804 7524Получили form.cleaned_data={'name': 'Name', 'email': 'Name@mail.ru', 'age': 25, 'height': 1.9, 'is_active': True, 'birthdate': datetime.date(2012, 4, 22), 'gender': 'M', 'message': 'Текст'}.
+INFO 2024-04-22 21:47:15,264 basehttp 17804 7524"POST /lesson4/forms/ HTTP/1.1" 200 2222
+INFO 2024-04-22 21:49:38,676 autoreload 17804 9588C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:49:39,166 autoreload 5800 20916Watching for file changes with StatReloader
+INFO 2024-04-22 21:51:43,657 autoreload 5800 20916C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 21:51:44,167 autoreload 19420 18736Watching for file changes with StatReloader
+INFO 2024-04-22 21:52:29,765 autoreload 19420 18736C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\models.py changed, reloading.
+INFO 2024-04-22 21:52:30,251 autoreload 5708 21736Watching for file changes with StatReloader
+INFO 2024-04-22 21:57:18,798 autoreload 8684 18084Watching for file changes with StatReloader
+INFO 2024-04-22 21:57:38,510 basehttp 8684 17772"GET /lesson4/user HTTP/1.1" 301 0
+ERROR 2024-04-22 21:57:38,547 log 8684 15800Internal Server Error: /lesson4/user/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py", line 52, in add_user
+    return render(request, 'myapp4/user_form.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR 2024-04-22 21:57:38,549 basehttp 8684 15800"GET /lesson4/user/ HTTP/1.1" 500 81032
+INFO 2024-04-22 21:58:00,466 autoreload 8684 18084C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 21:58:00,940 autoreload 20240 20604Watching for file changes with StatReloader
+INFO 2024-04-22 21:58:01,070 basehttp 20240 18140"GET /lesson4/user/ HTTP/1.1" 200 954
+INFO 2024-04-22 21:58:35,922 basehttp 20240 18140"POST /lesson4/user/ HTTP/1.1" 200 1094
+INFO 2024-04-22 21:58:49,595 basehttp 20240 18140"POST /lesson4/user/ HTTP/1.1" 200 1201
+INFO 2024-04-22 21:59:00,823 views 20240 18140Получили name='Name', email='Name@corp.mail.ru', age=25.
+INFO 2024-04-22 21:59:00,828 basehttp 20240 18140"POST /lesson4/user/ HTTP/1.1" 200 1016
+INFO 2024-04-22 22:04:02,080 autoreload 20240 20604C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\forms.py changed, reloading.
+INFO 2024-04-22 22:04:02,566 autoreload 11308 20484Watching for file changes with StatReloader
+INFO 2024-04-22 22:04:53,299 autoreload 11308 20484C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-22 22:04:53,802 autoreload 11608 20440Watching for file changes with StatReloader
+INFO 2024-04-22 22:05:12,758 autoreload 11608 20440C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 22:05:13,211 autoreload 19572 13416Watching for file changes with StatReloader
+INFO 2024-04-22 22:05:33,143 autoreload 19572 13416C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 22:05:33,759 autoreload 22324 20728Watching for file changes with StatReloader
+INFO 2024-04-22 22:05:58,819 autoreload 22324 20728C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-22 22:05:59,328 autoreload 18072 9972Watching for file changes with StatReloader
+INFO 2024-04-22 22:06:55,220 autoreload 18072 9972C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 22:06:55,693 autoreload 1184 19644Watching for file changes with StatReloader
+INFO 2024-04-22 22:07:16,622 autoreload 1184 19644C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 22:07:17,095 autoreload 4580 4848Watching for file changes with StatReloader
+INFO 2024-04-22 22:07:20,548 autoreload 4580 4848C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\views.py changed, reloading.
+INFO 2024-04-22 22:07:21,082 autoreload 7316 18264Watching for file changes with StatReloader
+INFO 2024-04-22 22:07:36,891 autoreload 7316 18264C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\urls.py changed, reloading.
+INFO 2024-04-22 22:07:37,377 autoreload 5696 3280Watching for file changes with StatReloader
+INFO 2024-04-22 22:07:43,879 autoreload 5696 3280C:\Work\!GB\16 Django\01_Lection\lection\app_lection_04\urls.py changed, reloading.
+INFO 2024-04-22 22:07:44,405 autoreload 19428 2036Watching for file changes with StatReloader
+INFO 2024-04-22 22:09:07,519 basehttp 19428 21464"GET /lesson4/upload/ HTTP/1.1" 200 642
+INFO 2024-04-22 22:09:34,595 basehttp 19428 21464"POST /lesson4/upload/ HTTP/1.1" 200 642
+INFO 2024-04-23 08:52:40,928 basehttp 19428 10872"GET / HTTP/1.1" 200 311
+INFO 2024-04-23 11:45:28,539 autoreload 21544 15972Watching for file changes with StatReloader
+INFO 2024-04-23 11:45:58,202 autoreload 13020 15940Watching for file changes with StatReloader
+INFO 2024-04-23 11:45:59,935 basehttp 13020 17452"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2024-04-23 11:46:00,023 basehttp 13020 17352"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-04-23 11:46:00,027 basehttp 13020 16488"GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-23 11:46:00,028 basehttp 13020 9088"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-04-23 11:46:00,032 basehttp 13020 8952"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2024-04-23 11:46:00,035 basehttp 13020 17452"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2024-04-23 11:46:00,048 basehttp 13020 8952"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-23 11:46:00,054 basehttp 13020 17452"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-23 11:46:21,439 basehttp 13020 17452"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2024-04-23 11:47:05,626 autoreload 13020 15940C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 11:47:06,188 autoreload 15420 9252Watching for file changes with StatReloader
+INFO 2024-04-23 11:47:20,293 basehttp 15420 18828"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2024-04-23 11:54:23,756 autoreload 21300 3852Watching for file changes with StatReloader
+ERROR 2024-04-23 11:54:38,200 log 21300 15588Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 313, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\admin\sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\auth\views.py", line 109, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 337, in commit
+    self._commit()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 312, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 313, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-23 11:54:38,207 basehttp 21300 15588"POST /admin/login/?next=/admin/ HTTP/1.1" 500 176979
+ERROR 2024-04-23 11:54:43,791 log 21300 10864Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 313, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\admin\sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\auth\views.py", line 109, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\contrib\sessions\backends\db.py", line 85, in save
+    with transaction.atomic(using=using):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 337, in commit
+    self._commit()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 312, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\base.py", line 313, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-23 11:54:43,796 basehttp 21300 10864"POST /admin/login/?next=/admin/ HTTP/1.1" 500 176979
+INFO 2024-04-23 11:54:49,994 basehttp 21300 10864"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 11:54:50,017 basehttp 21300 10864"GET /admin/ HTTP/1.1" 200 5852
+INFO 2024-04-23 11:54:50,057 basehttp 21300 10864"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-23 11:54:50,066 basehttp 21300 18452"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-23 11:54:50,066 basehttp 21300 10864"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-23 11:56:22,790 basehttp 21300 10864"GET /admin/auth/user/ HTTP/1.1" 200 11307
+INFO 2024-04-23 11:56:22,851 basehttp 21300 20528"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-04-23 11:56:22,851 basehttp 21300 10864"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2024-04-23 11:56:22,855 basehttp 21300 18452"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 11:56:22,858 basehttp 21300 10864"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-23 11:56:22,860 basehttp 21300 8372"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-23 11:56:22,867 basehttp 21300 8524"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-04-23 11:56:22,871 basehttp 21300 8372"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-23 11:56:22,871 basehttp 21300 18452"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-23 11:56:22,873 basehttp 21300 20528"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-04-23 11:56:22,877 basehttp 21300 8524"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-23 11:56:22,894 basehttp 21300 4508"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-04-23 11:56:22,910 basehttp 21300 10864"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-04-23 11:56:22,912 basehttp 21300 4508"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-23 11:56:22,930 basehttp 21300 4508"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-23 11:56:22,931 basehttp 21300 10864"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-23 11:56:44,833 basehttp 21300 10864"GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2024-04-23 11:56:44,846 basehttp 21300 4508"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 11:56:44,850 basehttp 21300 10864"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2024-04-23 11:56:44,853 basehttp 21300 8524"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-23 11:56:44,860 basehttp 21300 4508"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2024-04-23 11:56:44,862 basehttp 21300 10864"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-23 11:57:24,107 basehttp 21300 10864"POST /admin/auth/user/add/ HTTP/1.1" 200 11464
+INFO 2024-04-23 11:57:24,120 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 11:58:01,912 basehttp 21300 10864"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 11:58:01,969 basehttp 21300 10864"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25279
+INFO 2024-04-23 11:58:02,006 basehttp 21300 4508"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 11:58:02,018 basehttp 21300 10864"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-04-23 11:58:02,018 basehttp 21300 20528"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-23 11:58:02,018 basehttp 21300 18452"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2024-04-23 11:58:02,019 basehttp 21300 8524"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-04-23 11:58:02,068 basehttp 21300 20528"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-04-23 11:58:02,073 basehttp 21300 10864"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-04-23 11:58:02,073 basehttp 21300 8524"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-23 12:00:15,599 basehttp 21300 10864"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:00:15,614 basehttp 21300 10864"GET /admin/auth/user/ HTTP/1.1" 200 11917
+INFO 2024-04-23 12:00:15,629 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:00:20,161 basehttp 21300 10864"GET /admin/auth/group/ HTTP/1.1" 200 7641
+INFO 2024-04-23 12:00:20,263 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:00:22,417 basehttp 21300 10864"GET /admin/auth/group/add/ HTTP/1.1" 200 14673
+INFO 2024-04-23 12:00:22,450 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:00:57,175 basehttp 21300 10864"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:00:57,187 basehttp 21300 10864"GET /admin/auth/group/ HTTP/1.1" 200 9114
+INFO 2024-04-23 12:00:57,222 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:01:00,848 basehttp 21300 10864"GET /admin/auth/user/ HTTP/1.1" 200 12003
+INFO 2024-04-23 12:01:00,858 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:01:03,251 basehttp 21300 10864"GET /admin/auth/user/2/change/ HTTP/1.1" 200 25058
+INFO 2024-04-23 12:01:03,266 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:01:24,135 basehttp 21300 10864"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:01:24,148 basehttp 21300 10864"GET /admin/auth/user/ HTTP/1.1" 200 12223
+INFO 2024-04-23 12:01:24,180 basehttp 21300 10864"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:01:35,231 basehttp 21300 10864"POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-04-23 12:01:36,848 basehttp 21300 10864"GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:01:36,854 basehttp 21300 10864"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-23 12:01:45,874 basehttp 21300 10864"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:01:45,883 basehttp 21300 10864"GET /admin/ HTTP/1.1" 200 4801
+INFO 2024-04-23 12:04:32,942 autoreload 21300 3852C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\models.py changed, reloading.
+INFO 2024-04-23 12:04:33,434 autoreload 11252 20364Watching for file changes with StatReloader
+INFO 2024-04-23 12:04:35,868 autoreload 11252 20364C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\models.py changed, reloading.
+INFO 2024-04-23 12:04:36,511 autoreload 15668 13580Watching for file changes with StatReloader
+INFO 2024-04-23 12:07:49,716 autoreload 20528 4508Watching for file changes with StatReloader
+INFO 2024-04-23 12:07:55,238 basehttp 20528 22516"GET /admin/ HTTP/1.1" 200 4801
+INFO 2024-04-23 12:08:00,315 basehttp 20528 22516"POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-04-23 12:08:01,586 basehttp 20528 22516"GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:08:01,598 basehttp 20528 22516"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-23 12:08:11,527 basehttp 20528 22516"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:08:11,538 basehttp 20528 22516"GET /admin/ HTTP/1.1" 200 8284
+INFO 2024-04-23 12:09:20,317 autoreload 20528 4508C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\admin.py changed, reloading.
+INFO 2024-04-23 12:09:20,944 autoreload 22068 9520Watching for file changes with StatReloader
+INFO 2024-04-23 12:09:35,878 basehttp 22068 18636"GET /admin/ HTTP/1.1" 200 9479
+INFO 2024-04-23 12:10:15,431 basehttp 22068 18636"POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-04-23 12:10:16,846 basehttp 22068 18636"GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:10:16,859 basehttp 22068 18636"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-23 12:10:23,749 basehttp 22068 18636"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:10:23,759 basehttp 22068 18636"GET /admin/ HTTP/1.1" 200 5396
+INFO 2024-04-23 12:10:28,137 basehttp 22068 18636"GET /admin/app_lection_03/post/ HTTP/1.1" 200 18254
+INFO 2024-04-23 12:10:38,749 basehttp 22068 18636"GET /admin/app_lection_03/post/100/change/ HTTP/1.1" 200 10494
+INFO 2024-04-23 12:10:38,765 basehttp 22068 18636"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:10:45,729 basehttp 22068 18636"POST /admin/app_lection_03/post/100/change/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:10:45,748 basehttp 22068 18636"GET /admin/app_lection_03/post/ HTTP/1.1" 200 18479
+INFO 2024-04-23 12:11:01,442 basehttp 22068 18636"POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2024-04-23 12:11:02,605 basehttp 22068 18636"GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:11:02,610 basehttp 22068 18636"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-04-23 12:11:09,256 basehttp 22068 18636"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:11:09,267 basehttp 22068 18636"GET /admin/ HTTP/1.1" 200 9479
+INFO 2024-04-23 12:11:11,564 basehttp 22068 18636"GET /admin/app_lection_03/post/ HTTP/1.1" 200 32550
+INFO 2024-04-23 12:11:11,575 basehttp 22068 18636"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:18,204 basehttp 22068 18636"GET /admin/app_lection_03/post/100/change/ HTTP/1.1" 200 13793
+INFO 2024-04-23 12:11:18,215 basehttp 22068 18636"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:18,248 basehttp 22068 20608"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-23 12:11:27,203 basehttp 22068 20608"GET /admin/app_lection_05/category/ HTTP/1.1" 200 9140
+INFO 2024-04-23 12:11:27,251 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:30,190 basehttp 22068 20608"GET /admin/app_lection_05/category/add/ HTTP/1.1" 200 9981
+INFO 2024-04-23 12:11:30,239 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:40,649 basehttp 22068 20608"POST /admin/app_lection_05/category/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:11:40,659 basehttp 22068 20608"GET /admin/app_lection_05/category/add/ HTTP/1.1" 200 10279
+INFO 2024-04-23 12:11:40,694 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:46,142 basehttp 22068 20608"POST /admin/app_lection_05/category/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:11:46,154 basehttp 22068 20608"GET /admin/app_lection_05/category/2/change/ HTTP/1.1" 200 10519
+INFO 2024-04-23 12:11:46,179 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:48,493 basehttp 22068 20608"GET /admin/app_lection_05/product/ HTTP/1.1" 200 9133
+INFO 2024-04-23 12:11:48,520 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:49,763 basehttp 22068 20608"GET /admin/app_lection_05/product/add/ HTTP/1.1" 200 11859
+INFO 2024-04-23 12:11:49,856 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:11:59,741 basehttp 22068 20608"POST /admin/app_lection_05/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:11:59,752 basehttp 22068 20608"GET /admin/app_lection_05/product/add/ HTTP/1.1" 200 12148
+INFO 2024-04-23 12:11:59,764 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:12:07,440 basehttp 22068 20608"POST /admin/app_lection_05/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:12:07,452 basehttp 22068 20608"GET /admin/app_lection_05/product/add/ HTTP/1.1" 200 12154
+INFO 2024-04-23 12:12:07,462 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:12:22,046 basehttp 22068 20608"GET /admin/app_lection_05/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4486
+INFO 2024-04-23 12:12:22,074 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:12:31,331 basehttp 22068 20608"POST /admin/app_lection_05/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2024-04-23 12:12:31,352 basehttp 22068 20608"GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2024-04-23 12:12:39,178 basehttp 22068 20608"POST /admin/app_lection_05/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:12:39,189 basehttp 22068 20608"GET /admin/app_lection_05/product/add/ HTTP/1.1" 200 12195
+INFO 2024-04-23 12:12:39,199 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:12:52,575 basehttp 22068 20608"POST /admin/app_lection_05/product/add/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:12:52,587 basehttp 22068 20608"GET /admin/app_lection_05/product/add/ HTTP/1.1" 200 12201
+INFO 2024-04-23 12:12:52,600 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:12:54,942 basehttp 22068 20608"GET /admin/app_lection_05/category/ HTTP/1.1" 200 10850
+INFO 2024-04-23 12:12:54,954 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:12:55,658 basehttp 22068 20608"GET /admin/app_lection_05/product/ HTTP/1.1" 200 11053
+INFO 2024-04-23 12:12:55,670 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:13:04,523 basehttp 22068 20608"GET /admin/app_lection_05/product/1/change/ HTTP/1.1" 200 12136
+INFO 2024-04-23 12:13:04,550 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:13:07,393 basehttp 22068 20608"GET /admin/app_lection_05/product/1/delete/ HTTP/1.1" 200 9203
+INFO 2024-04-23 12:13:07,418 basehttp 22068 20608"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-04-23 12:13:21,689 basehttp 22068 20608"POST /admin/app_lection_05/product/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:13:21,702 basehttp 22068 20608"GET /admin/app_lection_05/product/ HTTP/1.1" 200 11000
+INFO 2024-04-23 12:13:21,712 basehttp 22068 20608"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:16:45,367 autoreload 22068 9520C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\models.py changed, reloading.
+INFO 2024-04-23 12:16:45,868 autoreload 21044 19608Watching for file changes with StatReloader
+INFO 2024-04-23 12:17:07,856 autoreload 21044 19608C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\models.py changed, reloading.
+INFO 2024-04-23 12:17:08,454 autoreload 1764 19780Watching for file changes with StatReloader
+INFO 2024-04-23 12:20:31,014 autoreload 3440 20648Watching for file changes with StatReloader
+INFO 2024-04-23 12:20:37,738 basehttp 3440 11284"GET /admin/app_lection_05/product/ HTTP/1.1" 200 10838
+INFO 2024-04-23 12:20:37,796 basehttp 3440 11284"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:20:42,729 basehttp 3440 11284"GET /admin/app_lection_05/product/4/change/ HTTP/1.1" 200 14692
+INFO 2024-04-23 12:20:42,743 basehttp 3440 11284"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:20:58,952 basehttp 3440 11284"POST /admin/app_lection_05/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:20:58,965 basehttp 3440 11284"GET /admin/app_lection_05/product/ HTTP/1.1" 200 11064
+INFO 2024-04-23 12:20:58,976 basehttp 3440 11284"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:21:01,176 basehttp 3440 11284"GET /admin/app_lection_05/product/4/change/ HTTP/1.1" 200 14690
+INFO 2024-04-23 12:21:01,187 basehttp 3440 11284"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:21:17,700 basehttp 3440 11284"GET /admin/app_lection_05/ HTTP/1.1" 200 5867
+INFO 2024-04-23 12:21:19,136 basehttp 3440 11284"GET /admin/app_lection_05/product/ HTTP/1.1" 200 10838
+INFO 2024-04-23 12:21:19,146 basehttp 3440 11284"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:21:55,912 autoreload 3440 20648C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\admin.py changed, reloading.
+INFO 2024-04-23 12:21:56,373 autoreload 3968 15500Watching for file changes with StatReloader
+INFO 2024-04-23 12:22:10,115 autoreload 3968 15500C:\Work\!GB\16 Django\01_Lection\lection\app_lection_03\admin.py changed, reloading.
+INFO 2024-04-23 12:22:10,618 autoreload 18380 20152Watching for file changes with StatReloader
+INFO 2024-04-23 12:22:32,585 autoreload 18380 20152C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:22:33,086 autoreload 4464 20896Watching for file changes with StatReloader
+INFO 2024-04-23 12:22:58,152 autoreload 4464 20896C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:22:58,774 autoreload 13544 7700Watching for file changes with StatReloader
+INFO 2024-04-23 12:23:02,499 basehttp 13544 19960"GET /admin/app_lection_05/product/ HTTP/1.1" 200 11377
+INFO 2024-04-23 12:23:02,513 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:23:12,553 basehttp 13544 19960"GET /admin/app_lection_05/product/?o=1 HTTP/1.1" 200 11785
+INFO 2024-04-23 12:23:12,659 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:23:14,523 basehttp 13544 19960"GET /admin/app_lection_05/product/?o=2.1 HTTP/1.1" 200 12275
+INFO 2024-04-23 12:23:14,554 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:23:16,727 basehttp 13544 19960"GET /admin/app_lection_05/product/?o=3.2.1 HTTP/1.1" 200 12688
+INFO 2024-04-23 12:23:16,762 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:23:33,289 basehttp 13544 19960"GET /admin/app_lection_05/product/?o=2.1 HTTP/1.1" 200 12275
+INFO 2024-04-23 12:23:33,300 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:23:35,274 basehttp 13544 19960"GET /admin/app_lection_05/product/?o=1 HTTP/1.1" 200 11785
+INFO 2024-04-23 12:23:35,285 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:23:36,974 basehttp 13544 19960"GET /admin/app_lection_05/product/?o= HTTP/1.1" 200 11477
+INFO 2024-04-23 12:23:38,006 basehttp 13544 19960"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:24:02,131 autoreload 13544 7700C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:24:02,651 autoreload 6488 3756Watching for file changes with StatReloader
+INFO 2024-04-23 12:24:18,888 basehttp 6488 20812"GET /admin/app_lection_05/product/?o= HTTP/1.1" 200 11477
+INFO 2024-04-23 12:24:18,900 basehttp 6488 20812"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:24:42,382 autoreload 2936 13232Watching for file changes with StatReloader
+INFO 2024-04-23 12:24:44,765 basehttp 2936 4852"GET /admin/app_lection_05/product/?o= HTTP/1.1" 200 11477
+INFO 2024-04-23 12:24:44,776 basehttp 2936 4852"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:25:06,782 basehttp 2936 4852"GET /admin/app_lection_05/product/?o= HTTP/1.1" 200 11477
+INFO 2024-04-23 12:25:06,795 basehttp 2936 4852"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:25:09,992 basehttp 2936 4852"GET /admin/app_lection_05/category/ HTTP/1.1" 200 10850
+INFO 2024-04-23 12:25:10,111 basehttp 2936 4852"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:25:10,802 basehttp 2936 4852"GET /admin/app_lection_05/product/ HTTP/1.1" 200 12167
+INFO 2024-04-23 12:25:10,813 basehttp 2936 4852"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:25:36,420 autoreload 2936 13232C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:25:37,020 autoreload 15500 10692Watching for file changes with StatReloader
+INFO 2024-04-23 12:25:45,580 basehttp 15500 19380"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13413
+INFO 2024-04-23 12:25:45,591 basehttp 15500 19380"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:26:40,394 autoreload 15500 10692C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:26:41,052 autoreload 6616 17268Watching for file changes with StatReloader
+INFO 2024-04-23 12:27:07,246 basehttp 6616 17400"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13907
+INFO 2024-04-23 12:27:07,259 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:27:47,152 basehttp 6616 17400"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13907
+INFO 2024-04-23 12:27:47,163 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:27:48,292 basehttp 6616 17400"GET /admin/app_lection_05/product/3/change/ HTTP/1.1" 200 14668
+INFO 2024-04-23 12:27:48,371 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:28:00,885 basehttp 6616 17400"POST /admin/app_lection_05/product/3/change/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:28:00,899 basehttp 6616 17400"GET /admin/app_lection_05/product/ HTTP/1.1" 200 14127
+INFO 2024-04-23 12:28:00,910 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:28:02,812 basehttp 6616 17400"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13907
+INFO 2024-04-23 12:28:02,823 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:28:08,280 basehttp 6616 17400"GET /admin/app_lection_05/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 13992
+INFO 2024-04-23 12:28:08,319 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:28:10,923 basehttp 6616 17400"GET /admin/app_lection_05/product/3/change/?_changelist_filters=q%3D%25D0%25B2%25D0%25BA%25D1%2583%25D1%2581 HTTP/1.1" 200 14907
+INFO 2024-04-23 12:28:11,152 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:28:16,395 basehttp 6616 17400"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13907
+INFO 2024-04-23 12:28:16,406 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:28:29,666 basehttp 6616 17400"GET /admin/app_lection_05/product/3/change/ HTTP/1.1" 200 14702
+INFO 2024-04-23 12:28:29,678 basehttp 6616 17400"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:29:56,094 autoreload 6616 17268C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:29:56,696 autoreload 15852 18656Watching for file changes with StatReloader
+INFO 2024-04-23 12:30:01,174 autoreload 15852 18656C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:30:01,748 autoreload 22096 15164Watching for file changes with StatReloader
+INFO 2024-04-23 12:30:14,747 basehttp 22096 5612"GET /admin/app_lection_05/product/3/change/ HTTP/1.1" 200 14702
+INFO 2024-04-23 12:30:14,761 basehttp 22096 5612"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:30:15,992 basehttp 22096 5612"GET /admin/app_lection_05/product/ HTTP/1.1" 200 14000
+INFO 2024-04-23 12:30:16,003 basehttp 22096 5612"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:30:34,140 basehttp 22096 5612"POST /admin/app_lection_05/product/ HTTP/1.1" 302 0
+INFO 2024-04-23 12:30:34,155 basehttp 22096 5612"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13999
+INFO 2024-04-23 12:30:34,167 basehttp 22096 5612"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:31:07,354 basehttp 22096 5612"GET /admin/app_lection_05/category/ HTTP/1.1" 200 10850
+INFO 2024-04-23 12:31:07,444 basehttp 22096 5612"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:31:32,907 autoreload 22096 15164C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:31:33,439 autoreload 18680 15092Watching for file changes with StatReloader
+INFO 2024-04-23 12:32:01,579 autoreload 18680 15092C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:32:02,035 autoreload 21308 18828Watching for file changes with StatReloader
+INFO 2024-04-23 12:32:46,628 autoreload 21308 18828C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:32:47,144 autoreload 15916 1416Watching for file changes with StatReloader
+INFO 2024-04-23 12:32:47,463 basehttp 15916 22160"GET /admin/app_lection_05/category/ HTTP/1.1" 200 10850
+INFO 2024-04-23 12:32:47,475 basehttp 15916 22160"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:32:49,077 basehttp 15916 22160"GET /admin/app_lection_05/product/ HTTP/1.1" 200 13999
+INFO 2024-04-23 12:32:49,153 basehttp 15916 22160"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:33:00,183 basehttp 15916 22160"GET /admin/app_lection_05/product/4/change/ HTTP/1.1" 200 13910
+INFO 2024-04-23 12:33:00,199 basehttp 15916 22160"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:34:32,480 autoreload 15916 1416C:\Work\!GB\16 Django\01_Lection\lection\app_lection_05\admin.py changed, reloading.
+INFO 2024-04-23 12:34:33,139 autoreload 19492 15648Watching for file changes with StatReloader
+INFO 2024-04-23 12:35:27,695 basehttp 19492 16248"GET /admin/app_lection_05/product/4/change/ HTTP/1.1" 200 15821
+INFO 2024-04-23 12:35:27,707 basehttp 19492 19684"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 12:35:27,730 basehttp 19492 16248"GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-04-23 19:43:30,158 autoreload 21024 17084Watching for file changes with StatReloader
+INFO 2024-04-23 19:43:34,730 basehttp 21024 20276"GET /admin/seminar6/ HTTP/1.1" 302 0
+INFO 2024-04-23 19:43:34,827 basehttp 21024 20276"GET /admin/login/?next=/admin/seminar6/ HTTP/1.1" 200 14123
+INFO 2024-04-23 19:43:34,839 basehttp 21024 20276"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-04-23 19:43:34,839 basehttp 21024 20976"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-04-23 19:43:34,844 basehttp 21024 20276"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-04-23 19:43:34,860 basehttp 21024 20276"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-04-23 19:43:56,269 log 21024 20276Not Found: /seminar6
+WARNING 2024-04-23 19:43:56,270 basehttp 21024 20276"GET /seminar6 HTTP/1.1" 404 12424
+WARNING 2024-04-23 19:44:10,222 log 21024 20276Not Found: /lesson4
+WARNING 2024-04-23 19:44:10,222 basehttp 21024 20276"GET /lesson4 HTTP/1.1" 404 12420
+WARNING 2024-04-23 19:44:12,469 log 21024 20276Not Found: /lesson4/
+WARNING 2024-04-23 19:44:12,469 basehttp 21024 20276"GET /lesson4/ HTTP/1.1" 404 13044
+INFO 2024-04-23 19:44:24,469 basehttp 21024 20276"GET /lesson4/forms HTTP/1.1" 301 0
+INFO 2024-04-23 19:44:24,526 basehttp 21024 20976"GET /lesson4/forms/ HTTP/1.1" 200 11987
+INFO 2024-04-23 19:44:51,149 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=HistoryPanel HTTP/1.1" 200 12486
+INFO 2024-04-23 19:44:51,153 basehttp 21024 20976"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-23 19:45:03,614 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-04-23 19:45:19,167 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=SettingsPanel HTTP/1.1" 200 26995
+INFO 2024-04-23 19:45:29,121 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=HeadersPanel HTTP/1.1" 200 5309
+INFO 2024-04-23 19:45:50,249 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=RequestPanel HTTP/1.1" 200 1413
+INFO 2024-04-23 19:46:08,874 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-04-23 19:46:36,979 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=StaticFilesPanel HTTP/1.1" 200 32899
+INFO 2024-04-23 19:46:52,460 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=TemplatesPanel HTTP/1.1" 200 45202
+INFO 2024-04-23 19:47:33,376 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-04-23 19:47:36,731 basehttp 21024 20976"GET /__debug__/render_panel/?store_id=032f229fdb0940c38bd2042928f5d46b&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2024-04-23 19:48:20,734 basehttp 21024 20976"GET /lesson4/forms/ HTTP/1.1" 200 12430
+INFO 2024-04-23 19:48:20,746 basehttp 21024 20976"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-23 19:48:20,746 basehttp 21024 10224"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-23 19:48:20,751 basehttp 21024 10224"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-23 19:48:20,757 basehttp 21024 10224"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-23 19:48:25,051 basehttp 21024 10224"GET /__debug__/render_panel/?store_id=3ce4cde877764a3cb726886cf1cd5a67&panel_id=ProfilingPanel HTTP/1.1" 200 37824
+INFO 2024-04-23 21:03:48,985 autoreload 2240 17156Watching for file changes with StatReloader
+INFO 2024-04-23 21:03:59,280 basehttp 2240 22312"GET /admin/ HTTP/1.1" 200 10848
+INFO 2024-04-23 21:03:59,338 basehttp 2240 19280"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-23 21:03:59,339 basehttp 2240 21372"GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-04-23 21:03:59,340 basehttp 2240 20040"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-23 21:03:59,341 basehttp 2240 21372"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-23 21:03:59,343 basehttp 2240 21372"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-23 21:04:00,203 basehttp 2240 21372"GET /admin/ HTTP/1.1" 200 10848
+INFO 2024-04-23 21:04:00,218 basehttp 2240 20040"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-23 21:04:00,221 basehttp 2240 20040"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-23 21:04:05,624 basehttp 2240 20040"GET /admin/login/?next=/admin/ HTTP/1.1" 200 14539
+INFO 2024-04-23 21:04:07,586 basehttp 2240 20040"POST /admin/login/?next=/admin/ HTTP/1.1" 200 10828
+INFO 2024-04-23 21:04:08,965 basehttp 2240 19280"GET /admin/ HTTP/1.1" 200 21487
+INFO 2024-04-23 21:04:08,985 basehttp 2240 19280"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-04-23 21:04:11,326 basehttp 2240 19280"GET /admin/app_lection_05/product/ HTTP/1.1" 200 24293
+INFO 2024-04-23 21:04:11,374 basehttp 2240 19280"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 21:04:11,421 basehttp 2240 19280"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-04-23 21:04:11,421 basehttp 2240 3592"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-04-23 21:04:13,583 basehttp 2240 3592"GET /admin/app_lection_05/product/ HTTP/1.1" 200 24292
+INFO 2024-04-23 21:04:13,617 basehttp 2240 3592"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-04-23 21:25:33,871 autoreload 11652 17900Watching for file changes with StatReloader
+WARNING 2024-04-23 21:25:34,442 log 11652 11948Not Found: /lesson6
+WARNING 2024-04-23 21:25:34,443 basehttp 11652 11948"GET /lesson6 HTTP/1.1" 404 12971
+INFO 2024-04-23 21:25:34,511 basehttp 11652 16456"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-23 21:25:34,511 basehttp 11652 11948"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-23 21:25:34,523 basehttp 11652 11948"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-23 21:25:34,539 basehttp 11652 11948"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-04-23 21:25:39,815 log 11652 11948Not Found: /lesson6/
+WARNING 2024-04-23 21:25:39,815 basehttp 11652 11948"GET /lesson6/ HTTP/1.1" 404 13416
+INFO 2024-04-23 21:26:01,430 basehttp 11652 11948"GET /lesson6/db HTTP/1.1" 200 10689
+WARNING 2024-04-23 21:26:12,892 log 11652 11948Not Found: /lesson6/db/
+WARNING 2024-04-23 21:26:12,892 basehttp 11652 11948"GET /lesson6/db/ HTTP/1.1" 404 13428
+INFO 2024-04-23 21:26:15,622 basehttp 11652 11948"GET /lesson6/db HTTP/1.1" 200 10688
+INFO 2024-04-23 21:26:21,217 autoreload 11652 17900C:\Work\!GB\16 Django\01_Lection\lection\app_lection_06\urls.py changed, reloading.
+INFO 2024-04-23 21:26:21,744 autoreload 18380 21636Watching for file changes with StatReloader
+INFO 2024-04-23 21:26:24,572 basehttp 18380 20216"GET /lesson6/db/ HTTP/1.1" 200 10690
+INFO 2024-04-23 21:26:26,806 basehttp 18380 20216"GET /lesson6/db HTTP/1.1" 200 10862
+INFO 2024-04-23 21:26:26,817 basehttp 18380 3660"GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-04-23 21:26:30,719 basehttp 18380 3660"GET /lesson6/db/ HTTP/1.1" 200 10689
+INFO 2024-04-23 21:26:52,374 basehttp 18380 3660"GET /__debug__/render_panel/?store_id=018b79ac5f2544e585738c8f9639448c&panel_id=RequestPanel HTTP/1.1" 200 2608
+INFO 2024-04-23 21:26:54,079 basehttp 18380 3660"GET /__debug__/render_panel/?store_id=018b79ac5f2544e585738c8f9639448c&panel_id=SQLPanel HTTP/1.1" 200 5422
+INFO 2024-04-23 21:27:15,773 basehttp 18380 3660"GET /lesson6/db HTTP/1.1" 200 10862
+INFO 2024-04-23 21:27:19,429 basehttp 18380 12360"GET /lesson6/view/ HTTP/1.1" 200 10675
+INFO 2024-04-23 21:27:26,077 basehttp 18380 12360"GET /__debug__/render_panel/?store_id=6a60bf9ce3684e63b18bfdb2019f5aec&panel_id=SQLPanel HTTP/1.1" 200 6797
+INFO 2024-04-23 21:27:35,337 basehttp 18380 12360"GET /__debug__/render_panel/?store_id=6a60bf9ce3684e63b18bfdb2019f5aec&panel_id=RequestPanel HTTP/1.1" 200 2612
+INFO 2024-04-23 21:28:31,319 basehttp 18380 12360"GET /lesson6/template HTTP/1.1" 200 10880
+INFO 2024-04-23 21:28:35,023 basehttp 18380 280"GET /lesson6/template/ HTTP/1.1" 200 10659
+INFO 2024-04-23 21:28:41,729 basehttp 18380 280"GET /__debug__/render_panel/?store_id=260e31ada2514202950ee83a71e4d0ba&panel_id=SQLPanel HTTP/1.1" 200 24875
+INFO 2024-04-23 21:28:55,094 basehttp 18380 280"GET /__debug__/render_panel/?store_id=260e31ada2514202950ee83a71e4d0ba&panel_id=TemplatesPanel HTTP/1.1" 200 7227
+INFO 2024-04-23 21:29:14,216 basehttp 18380 280"GET /__debug__/render_panel/?store_id=260e31ada2514202950ee83a71e4d0ba&panel_id=ProfilingPanel HTTP/1.1" 200 34466
+INFO 2024-04-23 21:29:29,250 basehttp 18380 280"GET /lesson6/template/ HTTP/1.1" 200 10659
+INFO 2024-04-23 21:29:37,983 basehttp 18380 280"GET /lesson6/view HTTP/1.1" 200 10868
+INFO 2024-04-23 21:29:46,844 basehttp 18380 17508"GET /lesson6/db HTTP/1.1" 200 10862
+INFO 2024-04-23 21:29:48,469 basehttp 18380 5168"GET /lesson6/db/ HTTP/1.1" 200 10689
+INFO 2024-04-23 21:30:00,849 basehttp 18380 5168"GET /__debug__/render_panel/?store_id=78b3c779479b43c58f9b2532683944bf&panel_id=ProfilingPanel HTTP/1.1" 200 35545
+INFO 2024-04-23 21:30:09,656 basehttp 18380 5168"GET /__debug__/render_panel/?store_id=78b3c779479b43c58f9b2532683944bf&panel_id=HistoryPanel HTTP/1.1" 200 18983
+INFO 2024-04-23 21:30:09,660 basehttp 18380 5168"GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-04-23 21:30:22,069 basehttp 18380 5168"GET /__debug__/history_sidebar/?store_id=78b3c779479b43c58f9b2532683944bf&exclude_history=True HTTP/1.1" 200 11368
+INFO 2024-04-23 21:30:35,694 basehttp 18380 5168"GET /__debug__/history_sidebar/?store_id=73afac45610e431cbdcb3f0f1b788ec4&exclude_history=True HTTP/1.1" 200 11330
+INFO 2024-04-23 21:30:40,157 basehttp 18380 5168"GET /__debug__/history_sidebar/?store_id=73afac45610e431cbdcb3f0f1b788ec4&exclude_history=True HTTP/1.1" 200 11330
+INFO 2024-04-23 21:30:44,420 basehttp 18380 5168"GET /__debug__/history_sidebar/?store_id=7e9dc839e80344aebe802070d60ba516&exclude_history=True HTTP/1.1" 200 11374
+INFO 2024-04-23 21:50:33,993 autoreload 18380 21636C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:50:34,548 autoreload 20116 13536Watching for file changes with StatReloader
+INFO 2024-04-23 21:51:04,031 autoreload 20116 13536C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:51:04,637 autoreload 18560 17600Watching for file changes with StatReloader
+INFO 2024-04-23 21:51:21,665 autoreload 18560 17600C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:51:22,237 autoreload 21312 10008Watching for file changes with StatReloader
+INFO 2024-04-23 21:52:01,088 autoreload 21312 10008C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:52:01,652 autoreload 17536 3376Watching for file changes with StatReloader
+INFO 2024-04-23 21:52:18,697 autoreload 17536 3376C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:52:19,227 autoreload 8704 17252Watching for file changes with StatReloader
+INFO 2024-04-23 21:52:46,648 autoreload 8704 17252C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:52:47,201 autoreload 21052 15856Watching for file changes with StatReloader
+INFO 2024-04-23 21:53:05,256 autoreload 21052 15856C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:53:05,836 autoreload 7424 18532Watching for file changes with StatReloader
+INFO 2024-04-23 21:53:42,593 autoreload 7424 18532C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:53:43,164 autoreload 9068 4204Watching for file changes with StatReloader
+INFO 2024-04-23 21:54:36,487 autoreload 9068 4204C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 21:54:37,064 autoreload 21276 11540Watching for file changes with StatReloader
+INFO 2024-04-23 22:00:36,759 autoreload 21276 11540C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
+INFO 2024-04-23 22:00:37,483 autoreload 20216 10420Watching for file changes with StatReloader
+INFO 2024-04-23 22:06:24,820 autoreload 20216 10420C:\Work\!GB\16 Django\01_Lection\lection\lection\settings.py changed, reloading.
